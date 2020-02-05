@@ -2,8 +2,6 @@ class CircularQueue(object):
     def __init__(self):
         self.queue = list()
         self.size = 3
-        self.head = 0
-        self.tail = 0
     def enqueue(self):
         if self.size == (self.size - 1):
             return 'Queue is full'
